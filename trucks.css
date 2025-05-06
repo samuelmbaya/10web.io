@@ -170,6 +170,95 @@
     margin-top: 5vh;
 }
 
+.xcars{
+   border: 1px solid rgb(238, 238, 238);
+   margin-left: 3vw;
+   width: 5vw;
+   height: 4vh;
+   border-radius: 5px;
+   text-align: center;
+   margin-top: 2.5vh;
+}
+
+.navp4{
+    margin-top: 0.5vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.navp5{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-left: 8.5vw;
+    margin-top: -3.5vh;
+}
+
+.navp6{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 3vw;
+    margin-top: 5.5vh;
+}
+
+.navp7{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 3vw;
+    margin-top: 13vh;
+}
+
+.option{
+    border: 1px solid rgb(238, 238, 238);
+    margin-left: 3vw;
+    width: 17vw;
+    height: 5vh;
+    text-align: center;
+    margin-top: 2.5vh;
+ }
+ 
+ .navp8{
+     margin-top: 1.2vh;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 400;
+      color: rgb(136, 136, 136);
+      margin-left: -3.5vw;
+ }
+
+ .navp9{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+
+.navp10{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
+.navp11{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
+.navp12{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
 .vehicles {
     border: 1px solid transparent;
     width: 77.45vw;
