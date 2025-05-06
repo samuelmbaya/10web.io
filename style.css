@@ -1,0 +1,784 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.header {
+    width: 100vw;
+    height: 10.7vh;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo {
+    height: 10.5vh;
+    width: 7.5vw;
+    margin-left: 11.5vw;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 14px 65px;
+    /* text-align: center; */
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2.2vh;
+    margin-left: 55vw;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+}
+
+.buttonn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.buttonn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+
+.navbar {
+    width: 100vw;
+    height: 10.7vh;
+    background-color: rgba(0, 0, 0, 0.317);
+    position: fixed;
+    z-index: 1000;
+    margin-top: 10.6vh;
+}
+
+.navlinks {
+    margin-left: 41vw;
+    margin-top: -4.6vh;
+    display: flex;
+}
+
+.navicons{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 90vw;
+    margin-top: -2.5vh;
+}
+
+.navv{
+    color: #fff;
+}
+
+.fa-shopping-bag{
+    margin-left: 1vw;
+}
+
+.cars,
+.trucks,
+.suv,
+.newarr {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding-left: 2.5vw;
+}
+
+
+.logo2 {
+    height: 7vh;
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+}
+
+.banner {
+    border: 1px solid transparent;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    background-image: url(/images/tenweb_media_0oksvY43.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: banner 15s ease-out forwards;
+}
+
+@keyframes banner{
+    from {
+        background-size: 100%;
+      }
+      to {
+        background-size: 120%;
+      }
+}
+
+.bannerh1 {
+    color: #fff;
+    margin-top: 29vh;
+    margin-left: 8vw;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.bannerp1 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    font-weight: 400;
+}
+
+.bannerbtn {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15vh;
+    margin-left: 8vw;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ourvehicles {
+    width: 100vw;
+    height: 120vh;
+}
+
+.h41 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 9.5vh;
+    margin-left: 40vw;
+}
+
+.swiper {
+    width: 80%;
+    height: 89vh;
+}
+
+.swiper-slide {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 18px;
+    background: #515151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(85%);
+}
+
+.swiperbtn {
+    background-color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    filter: brightness(100%);
+    margin-top: 46vh;
+}
+
+.collection {
+    width: 100vw;
+    height: 110vh;
+}
+
+.suvh2 {
+    position: absolute;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-top: 37vh;
+    margin-left: 10.7vw;
+}
+
+.collectionh1 {
+    font-size: 42px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 8.6vw;
+    margin-top: 8vh;
+    font-weight: 700;
+}
+
+.collectionp {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 8.6vw;
+    margin-top: 3vh;
+}
+
+.collectionbtn {
+    background-color: white;
+    border: 1px solid black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    filter: brightness(100%);
+    margin-top: -6vh;
+    margin-left: 80vw;
+    position: absolute;
+}
+
+.collectionbtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cars {
+    display: flex;
+    margin-left: 4vw;
+}
+
+.collectioncar1 {
+    width: 28vw;
+    height: 55vh;
+    margin-top: 10vh;
+    background-image: url(/images/tenweb_media_IEe6ara9.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.collectionsale {
+    border: 1px solid rgb(0, 0, 0);
+    width: 4vw;
+    height: 4vh;
+    position: absolute;
+    margin-top: 11vh;
+    margin-left: 29.7vw;
+    background-color: #000;
+    text-align: center;
+    justify-content: center;
+}
+
+.collectioncar2 {
+    width: 28vw;
+    height: 55vh;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    background-image: url(/images/tenweb_media_R40Prck6.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.salep {
+    margin-top: 0.6vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+.collectioncar3 {
+    width: 28vw;
+    height: 55vh;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    background-image: url(/images/tenweb_media_5rpAfoM4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boxoutline1 {
+    position: absolute;
+    width: 28vw;
+    height: 73vh;
+    margin-top: 10vh;
+}
+
+.boxoutline1:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.boxoutline2 {
+    position: absolute;
+    width: 28vw;
+    height: 73vh;
+    margin-top: 10vh;
+    margin-left: 29vw;
+}
+
+.boxoutline2:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.boxoutline3 {
+    position: absolute;
+    width: 28vw;
+    height: 73vh;
+    margin-top: 10vh;
+    margin-left: 58vw;
+}
+
+.boxoutline3:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.car1info {
+    position: absolute;
+    width: 28vw;
+    height: 18vh;
+    margin-top: 64.9vh;
+}
+
+.car2info {
+    position: absolute;
+    width: 28vw;
+    height: 18vh;
+    margin-top: 64.9vh;
+    margin-left: 29vw;
+}
+
+.car3info {
+    position: absolute;
+    width: 28vw;
+    height: 18vh;
+    margin-top: 64.9vh;
+    margin-left: 58vw;
+}
+
+.abtcar1 {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: #000000;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+
+.carp1 {
+    color: #000;
+    font-weight: 400;
+    margin-left: 1vw;
+    margin-top: 7vh;
+}
+
+.s1 {
+    font-size: 14px;
+}
+
+.cart {
+    position: absolute;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+
+.cart:hover {
+    color: red;
+}
+
+.standout {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 6.5vw;
+    margin-top: 10vh;
+}
+
+.standoutp {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    height: 40vh;
+    margin-left: 40vw;
+    margin-top: -7.5vh;
+}
+
+.teamimg {
+    width: 85vw;
+    margin-top: 8vh;
+}
+
+.promotion {
+    border: 1px solid rgba(255, 0, 234, 0);
+    margin-top: 10vh;
+    width: 100vw;
+    height: 155vh;
+    background-color: #f2f2f2;
+}
+
+.promobox {
+    width: 85vw;
+    height: 69vh;
+    margin-left: 6.5vw;
+    margin-top: 10vh;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+}
+
+.onehalf {
+    width: 44vw;
+    background-color: rgb(51, 51, 51);
+}
+
+.promoh2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 5.5vh;
+    margin-left: 3vw;
+}
+
+.promop {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5.5vh;
+    margin-left: 3vw;
+}
+
+.promobtn1 {
+    background-color: white;
+    border: 1px solid black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 3vw;
+    margin-top: 8vh;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+}
+
+.promobtn1:hover {
+    background-color: #c6c6c6;
+    color: #fff;
+}
+
+.promobtn2 {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 13vw;
+    margin-top: 8vh;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+}
+
+.promobtn2:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.twohalf {
+    width: 44vw;
+    background-image: url(/images/tenweb_media_UV5iSYFE.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.h51 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 3vw;
+    margin-top: 25vh;
+}
+
+.certified{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 3vw;
+    margin-top: 4vh;
+    position: absolute;
+}
+
+.certified:hover{
+    color: rgb(0, 68, 255);
+}
+
+.ff{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 3vw;
+    margin-top: 10vh;
+    position: absolute; 
+}
+
+.ff:hover{
+    color: rgb(0, 68, 255);
+}
+
+.cabs{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 3vw;
+    margin-top: 16vh;
+    position: absolute;
+}
+
+.cabs:hover{
+    color: rgb(0, 68, 255);
+}
+
+.h52{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    position: absolute;
+    margin-left: 19.5vw;
+    margin-top: -3.8vh;
+}
+
+.footertrucks{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 19.5vw;
+    margin-top: 4vh; 
+    text-decoration: none;
+}
+
+.footertrucks:hover{
+    color: rgb(0, 68, 255);
+}
+
+.footersuv{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 19.5vw;
+    margin-top: 10vh; 
+    text-decoration: none;
+}
+
+.footersuv:hover{
+    color: rgb(0, 68, 255);
+}
+
+.h53{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: -3.8vh;
+}
+
+.footernewarrivals{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: 4vh; 
+    text-decoration: none;
+}
+
+.footernewarrivals:hover{
+    color: rgb(0, 68, 255);
+}
+
+.h54{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: -3.8vh;
+}
+
+.footerp{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 3vw;
+    margin-top: 25vh;
+    position: absolute;
+    margin-left: 65vw;
+    margin-top: 1vh;
+}
+
+
+.footerhr{
+    width: 90vw;
+    margin-left: 4vw;
+    margin-top: 30vh;
+}
+
+.footerbtmp{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 3vw;
+    margin-top: 5vh;
+}
+
+.label{
+    margin-left: 65vw;
+    position: absolute;
+}
+
+.input{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 0.5vh;
+    margin-top: 8vh;
+    border: 1px solid transparent;
+
+}
+
+.inputbtn{
+    width: 8vw;
+    margin-left: 1vw;
+    height: 7vh;
+    border-radius: 0.5vh;
+    background-color: #000;
+    color: #fff;
+    border: transparent;
+}
+
+.inputp{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    padding-left: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+/* .shopall{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 19.5vw; 
+    text-decoration: none;
+}
+
+.shopall:hover{
+    color: rgb(0, 68, 255);
+} */
+
+.footerlinks{
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: -2.5vh;
+}
+
+.footericonlinks{
+    font-size: 18px;
+    margin-left: 89vw;
+    display: flex;
+    letter-spacing: 0.9VW;
+    margin-top: -2.5vh;
+}
+
+.flll{
+    color: #000;
+}
+
+.flll:hover{
+    color: rgb(0, 68, 255);
+}
+
+.shopall, .terms, .policy, .return{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    margin-left: 3vw;
+}
+
+.shopall:hover{
+    color: rgb(0, 68, 255);
+}
+
+.terms:hover{
+    color: rgb(0, 68, 255);
+}
+
+.policy:hover{
+    color: rgb(0, 68, 255);
+}
+
+.return:hover{
+    color: rgb(0, 68, 255);
+}
+
+.chat{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 2.5vw;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #000;
+    position: fixed;
+    z-index: 1000;
+    margin-left: 10vh;
+    margin-top: -10vh;
+}
+
+.chatlogo{
+    width: 10vw;
+    height: 10vh;
+    margin-left: 90vw;
+}
