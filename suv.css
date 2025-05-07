@@ -202,6 +202,26 @@
     margin-top: 5.5vh;
 }
 
+.fas{
+    font-size: 12px;
+    margin-left: 13vw;
+    position: absolute;
+}
+
+.fa-solid{
+    font-size: 12px;
+    margin-left: 10vw;
+    position: absolute;
+}
+
+.fa-redo{
+    margin-left: 6px;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 0.5vh;
+    font-weight: 400;
+}
+
 .navp7{
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
@@ -235,28 +255,93 @@
     margin-top: 3vh;
 }
 
-.navp10{
-    font-size: 18px;
+.form{
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    margin-left: 5vw;
-    margin-top: 3vh;
+    margin-top: 2.5vh;
 }
 
-.navp11{
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    margin-left: 5vw;
-    margin-top: 3vh;
+.tickbox1{
+    margin-left: 2.5vw;
+    width: 2vw;
+    height: 2vh;
+    color:  rgb(238, 238, 238);
+    margin-bottom: 4vh;
 }
 
-.navp12{
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    margin-left: 5vw;
-    margin-top: 3vh;
+.label1{
+    margin-top: 5vh;
+}
+
+.sliderbar{
+    border: 1px solid transparent;
+    width: 15vw;
+    height: 1vh;
+    margin-left: 3.5vw;
+    margin-top: 5.5vh;
+    background-color: rgb(29, 29, 29);
+    position: absolute;
+}
+
+.ball1{
+    border: 1px solid transparent ;
+    width: 1.3vw;
+    height: 2.6vh;
+    border-radius: 50%;
+    margin-left: 3.4vw;
+    margin-top: 4.7vh;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 1px 3px 6px 0px #000000a8;
+    box-shadow: blue ;
+}
+
+.ball2{
+    border: 1px solid transparent;
+    width: 1.3vw;
+    height: 2.6vh;
+    border-radius: 50%;
+    margin-left: 18vw;
+    margin-top: 4.7vh;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 1px 3px 6px 0px #000000a8;
+}
+
+.cost1{
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: 3.4vw;
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.cost2{
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 1.5vh;
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.cost3{
+    position: absolute;
+    position: absolute;
+    position: absolute;
+    margin-left: 3.4vw;
+    margin-top: 8.5vh;
+    color: #797979;
+    font-family: "Open Sans";
+}
+
+.cost4{
+    position: absolute;
+    position: absolute;
+    margin-left: 16vw;
+    margin-top: 8.5vh;
+    color: #797979;
+    font-family: "Open Sans";
 }
 
 .vehicles {
