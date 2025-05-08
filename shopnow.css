@@ -120,6 +120,7 @@
     height: 6vh;
     margin-top: 21vh;
     background: rgb(66, 66, 66);
+    
 }
 
 .greyh5 {
@@ -139,8 +140,10 @@
 
 .leftnav {
     border: 1px solid transparent;
-    height: 110vh;
+    height: 100vh;
     width: 21.5vw;
+    position: sticky;
+
 }
 
 .navp1{
@@ -166,40 +169,35 @@
     margin-top: 5vh;
 }
 
-.xcars{
-   border: 1px solid rgb(238, 238, 238);
-   margin-left: 3vw;
-   width: 5vw;
-   height: 4vh;
-   border-radius: 5px;
-   text-align: center;
-   margin-top: 2.5vh;
-}
-
-.navp4{
-    margin-top: 0.5vh;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-}
-
-.navp5{
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    margin-left: 8.5vw;
-    margin-top: -3.5vh;
-}
 
 .navp6{
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin-left: 3vw;
-    margin-top: 5.5vh;
+    margin-top: -4vh;
 }
+
+.navp10{
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    /* margin-left: 3vw; */
+    margin-top: 5vh;
+    padding-left: 3vw;
+}
+
+.hahaha{
+    margin-left: -6vh;
+}
+
 
 .fas{
     font-size: 12px;
+}
+
+.fa-chevron-up{
+
     margin-left: 13vw;
     position: absolute;
 }
@@ -223,7 +221,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     margin-left: 3vw;
-    margin-top: 13vh;
+    margin-top: 15vh;
 }
 
 .option{
@@ -658,7 +656,7 @@
 }
 
 input::placeholder{
-    padding-left: 1.5vw;
+    padding-left: -1vw;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }

@@ -24,7 +24,7 @@
 <body>
 
     <div class="header">
-        <img src="/images/logo.svg" alt="" class="logo">
+        <a href="index.html"><img src="/images/logo.svg" alt="" class="logo"></a>
         <button class="button buttonn">Use Template</button>
     </div>
 
@@ -42,9 +42,11 @@
             <a href="" class="navv"><i class="fa fa-user-alt"></i></a>
             <a href="" class="navv"><i class="fa fa-shopping-bag"></i></a>
         </div>
-
+        
+        
     </div>
 
+    
     <div class="shopping">
 
         <div class="greybar">
@@ -53,19 +55,29 @@
 
          <div class="leftnav">
 
-         <p class="navp1">Shop All / Cars</p>
-         <h1 class="navh1">Cars</h1>
+         <p class="navp1">Shop All</p>
+         <h1 class="navh1">Shop</h1>
          <p class="navp3">Collapse All -</p>
 
-         <div class="xcars">
-            <p class="navp4">Cars  <span class="cross">x</span> </p>
 
+
+         
+         <p class="navp10">Categories <span class="hahaha"><i class="fas fa-chevron-up"></i></span></p>
+
+
+         <div class="form">
+
+            <form action="/action_page.php">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="tickbox1">
+                <label for="vehicle1">Handgun Ammunition</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" class="tickbox1">
+                <label for="vehicle2"  class="label1">Rifle Ammunition</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" class="tickbox1">
+                <label for="vehicle3">Shotgun Ammunition</label><br><br>
+              </form>
         </div>
-         <p class="navp5">Reset All <i class="fas fa-redo"></i></p>
-
          
-         <p class="navp6">Price <i class="fas fa-chevron-up"></i></p>
-         
+        <p class="navp6">Price <i class="fas fa-chevron-up"></i></p>
         <div class="sliderbar"></div>
         <div class="ball1"></div>
         <div class="ball2"></div>
@@ -89,11 +101,11 @@
 
             <form action="/action_page.php">
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" class="tickbox1">
-                <label for="vehicle1"> Certified Pre-Owned</label><br>
+                <label for="vehicle1">Hunting Gear</label><br>
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" class="tickbox1">
-                <label for="vehicle2"  class="label1"> Family Friendly</label><br>
+                <label for="vehicle2"  class="label1">Self-Defence</label><br>
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" class="tickbox1">
-                <label for="vehicle3"> New Arrivals</label><br><br>
+                <label for="vehicle3">Sport Shooting</label><br><br>
               </form>
         </div>
          
@@ -242,7 +254,7 @@
         <p class="footerp">Subscribe to our newsletter for the latest updates on new arrivals <br> and exclusive
           promotions.</p>
   
-        <label for="email" class="label"><input type="text" placeholder="Enter your email" class="input"><button
+        <label for="email" class="label"><input type="text" placeholder="Enter your email" class="input" style="padding-left: 10px;"><button
             class="inputbtn">
             <p class="inputp">Subscribe</p>
           </button></label>
